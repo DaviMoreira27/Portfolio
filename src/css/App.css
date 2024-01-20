@@ -1,0 +1,112 @@
+.containerTodo{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appTodo{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgb(72, 78, 158);
+  width: 30rem;
+  padding: 1rem;
+}
+
+.appTodo form{
+  display: flex;
+  width: 100%;
+  gap: .2rem;
+}
+
+.appTodo h1{
+  color: #FFF;
+}
+
+form input{
+  padding: 1rem;
+}
+
+form input[type="submit"]{
+  color: #000;
+  background-color: rgb(0, 198, 59);
+  border-radius: 10px;
+  border: 1px solid rgb(0, 198, 59);
+}
+
+form input[type="text"]{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #000;
+
+}
+
+.listItem{
+  display: flex;
+  gap: .5rem;
+  width: 100%;
+  justify-content: space-between;
+  color: #FFF;
+  align-items: center;
+}
+
+.listItem .row{
+  display: flex;
+  gap: .2rem;
+  align-items: center;
+}
+
+.listItem button{
+  padding: .5rem;
+  background-color: red;
+  color: #FFF;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.containerList{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.containerFilter{
+  display: flex;
+  justify-content: space-between;
+  background-color: #9c0000;
+  padding: 1rem;
+  align-content: center;
+}
+
+.containerFilter button{
+  padding: 1rem;
+  color: #FFF;
+  background-color: rgb(71, 0, 156);
+  border-radius: 10px;
+  border: 1px solid rgb(71, 0, 156);
+}
+
+.filterStatus{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  color: #FFF;
+}
+
+.filterStatus select{
+  padding: .5rem;
+  color: #FFF;
+  background-color: rgb(71, 0, 156);
+  border-radius: 10px;
+  border: 1px solid rgb(71, 0, 156);
+}
+
+.cleanAll{
+  padding: 1rem;
+  background-color: red;
+  color: #FFF;
+  border: 1px solid red;
+  border-radius: 10px;
+}
